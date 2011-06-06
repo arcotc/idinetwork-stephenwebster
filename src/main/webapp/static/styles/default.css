@@ -133,7 +133,7 @@ ul.linklist li.first {
 #splash {
 	position: absolute;
 	right: 30px;
-	background: #EAEAE2 url('/static/images//a10.jpg') no-repeat;
+	background: #EAEAE2 url('/static/images//dashboard.jpg') no-repeat;
 	width: 458px;
 	height: 92px;
 }
