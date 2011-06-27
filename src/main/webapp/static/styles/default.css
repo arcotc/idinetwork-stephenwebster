@@ -110,7 +110,7 @@ ul.linklist li.first {
 	font-weight: normal;
 }
 
-#header h1 {
+#header .line1 {
 	position: absolute;
 	font-size: 23px;
 	letter-spacing: -1px;
@@ -118,9 +118,9 @@ ul.linklist li.first {
 	height: 92px;
 }
 
-#header h2 {
+#header .line2 {
 	position: absolute;
-	font-size: 10px;
+	font-size: 14px;
 	font-weight: normal;
 	color: #FCE2CA;
 	top: 51px;
@@ -141,7 +141,7 @@ ul.linklist li.first {
 #menu {
 	position: relative;
 	background: #46461F url('/static/images//a16.gif') repeat-x;
-	height: 67px;
+	height: 55px;
 	padding: 0px 20px 0px 5px;
 	margin: 98px 0px 20px 0px;
 }
@@ -215,14 +215,7 @@ ul.linklist li.first {
 	float: left;
 }
 
-.
-wide {
-	position: relative;
-	width: 680px;
-	float: left;
-}
-
-#primarycontent h3 {
+#pagetitle {
 	position: relative;
 	top: 4px;
 	font-size: 18px;
@@ -232,6 +225,12 @@ wide {
 	background: url('/static/images//a22.gif') bottom repeat-x;
 	padding: 0px 0px 10px 15px;
 	margin-bottom: 20px;
+}
+
+#primarycontent-wide {
+	position: relative;
+	width: 680px;
+	float: left;
 }
 
 #primarycontent .content {
@@ -248,6 +247,15 @@ wide {
 }
 
 #primarycontent .post .date {
+	position: absolute;
+	right: 15px;
+	top: 0px;
+	line-height: 35px;
+	color: #AFAFA4;
+	font-weight: bold;
+}
+
+#primarycontent-wide .post .date {
 	position: absolute;
 	right: 15px;
 	top: 0px;
@@ -312,4 +320,9 @@ wide {
 #contactForm {
 	font-size: 11px;
 	font-family: "trebuchet ms", helvetica, sans-serif;
+}
+
+.content-title-noshade-size3 {
+	font-weight: bold;
+	font-color: black;
 }

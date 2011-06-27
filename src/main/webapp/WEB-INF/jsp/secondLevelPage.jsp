@@ -13,7 +13,7 @@
 		<c:when test="${not empty page}">${page.title} | </c:when>
 		<c:when test="${not empty article}">${article.title} | </c:when>
 	</c:choose>
- 	IDINetwork Demonstration
+ 	Stephen Webster ADI
   </title>
 <link rel="stylesheet" type="text/css" href="/static/styles/default.css" />
 </head>
@@ -29,7 +29,7 @@
 	
 		<jsp:include page="includes/topnavbar.jsp"/>
 
-		<div class="primarycontent wide">
+		<div id="primarycontent-wide">
 			<jsp:include page="includes/mainbody.jsp"/>
 		</div>
 	

@@ -1,6 +1,6 @@
 		<div id="header">
-			<h1><span>Stephen Webster</span></h1>
-			<h2>Approved Driving Instructor</h2>
+			<span class="line1">Stephen Webster</span><br/>
+			<span class="line2">Approved Driving Instructor</span>
 		</div>
 	
 		<div id="splash"></div>

@@ -31,7 +31,7 @@
 		<jsp:include page="../includes/topnavbar.jsp"/>
 
 		<div class="primarycontent wide">
-			<idi:contactForm email="arcotc@yahoo.co.uk" confirmationUrl="contact/confirmation" msg="Use the form below to contact us"/>
+			<idi:contactForm fromEmail="${fromEmail}" toEmail="${toEmail}" confirmationUrl="contact/confirmation" msg="Use the form below to contact us"/>
 		</div>
 	
 		<div id="footer">
